@@ -1,0 +1,9 @@
+# folders
+__pycache__/
+work_dirs*/
+results*/
+data/
+checkpoint/
+
+# files
+
