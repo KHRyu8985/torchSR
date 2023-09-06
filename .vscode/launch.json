@@ -1,0 +1,31 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--arch", "ninasr_b0",
+                "--scale", "2",
+                "--noise", "SHIFT",
+                "--noise-value", "0",
+                "--loss", "l1",
+                "--load-checkpoint", "/data/shkim/A100/SuperResolution/torchSR/workdirs_230809/ninasr_b0/SHIFT/2x_bs128_300epochs_l1_div2k_bicubic_SHIFT%5_0_e150.pt",
+                "--seed", "729",
+                "--lre","True",
+                "--metric", "0",
+                "--destination", "/data/shkim/A100/SuperResolution/torchSR/results_230809/CAM/'",
+                "--images", "/data/shkim/A100/SuperResolution/torchSR/data/SRBenchmarks/benchmark/Set14/LR_bicubic/X2/baboonx2.png",
+                "--hr", "/data/shkim/A100/SuperResolution/torchSR/data/SRBenchmarks/benchmark/Set14/HR/baboon.png",
+                "--log", "/data/shkim/A100/SuperResolution/torchSR/workdirs_230815/ninasr_b0/SHIFT/test.txt"
+             ]
+        }
+    ]
+}
