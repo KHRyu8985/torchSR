@@ -14,6 +14,6 @@ tar -xzf $file -C $directory && rm $file
 
 # https://drive.google.com/file/d/1qp6z3F4Ru9srwq1lNZr3pQ4kcVN-AOlM/view?usp=drive_link
 
-!gdown https://drive.google.com/uc?id=1qp6z3F4Ru9srwq1lNZr3pQ4kcVN-AOlM
+gdown https://drive.google.com/uc?id=1qp6z3F4Ru9srwq1lNZr3pQ4kcVN-AOlM
 
 gdown "<1qp6z3F4Ru9srwq1lNZr3pQ4kcVN-AOlM>&confirm=t"

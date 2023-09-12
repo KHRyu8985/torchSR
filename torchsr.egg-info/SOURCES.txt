@@ -26,5 +26,6 @@ torchsr/models/rcan.py
 torchsr/models/rdn.py
 torchsr/models/utils.py
 torchsr/models/vdsr.py
+torchsr/models/vnet.py
 torchsr/transforms/__init__.py
 torchsr/transforms/transforms.py
